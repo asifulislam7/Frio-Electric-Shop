@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0 0 5px 0;
+}
+
+.logout-btn {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.summary-box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.filter-section {
+    margin-bottom: 15px;
+}
+
+.filter-section input, .filter-section select {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+.view-btn {
+    background-color: #059669;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.details-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.close-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
